@@ -8,11 +8,15 @@ details in our private SOP document.
 * Uptime
     * [x] BIOS power recovery options: set to on
     * [x] BIOS automatic power on: set to daily
-    * [ ] Add UPS and power management software
+    * [x] Add UPS and power management software
     * [x] Adjust power plan to never sleep or hibernate
     * Automate the reboot cycle
         * [x] Do have Windows Update automatically install & reboot
         * [x] Setup automatic user login
+        * [x] Automate locking desktop at user login
+        * [ ] Launch Nginx (or setup Nginx as a Windows service somehow?)
+        * [x] Launch NTP Server Monitor
+        * [x] Launch LoggerNet
 * Remote management
     * [x] Disable Remote Assistance invitations
     * [x] Enable Remote Desktop with NLA
@@ -34,13 +38,19 @@ details in our private SOP document.
     * [ ] [Crypt-LE](https://github.com/do-know/Crypt-LE)
     * [x] [FileZilla Server](https://filezilla-project.org/download.php?type=server)
     * [x] [Nginx](https://nginx.org/en/download.html)
-    * [ ] [Nework time protocol](https://www.meinbergglobal.com/english/sw/ntp.htm#ntp_stable)
-    * [ ] [NTP server monitor](https://www.meinbergglobal.com/english/sw/ntp-server-monitor.htm)
-    * [ ] LoggerNet
+    * [x] [Nework time protocol](https://www.meinbergglobal.com/english/sw/ntp.htm#ntp_stable)
+    * [x] [NTP server monitor](https://www.meinbergglobal.com/english/sw/ntp-server-monitor.htm)
+    * [x] LoggerNet
     * [ ] cygwin (for SFTP) or freeSSHd?
     * [ ] hMailAdmin? or maybe just use Google App Passwords?
     * [ ] Areca Backup? or something else?
     * [ ] TightVNC or RealVNC servers?
+* Server configuration
+    * [ ] create web directory structure
+    * [ ] get FTP running
+    * [ ] get SFTP running
+    * [ ] get HTTP/browse running
+    * 
 * My personal prejudices
     * [x] Fixup browser settings
         * Search engine: DuckDuckGo
