@@ -14,7 +14,7 @@ details in our private SOP document.
         * [x] Do have Windows Update automatically install & reboot
         * [x] Setup automatic user login
         * [x] Automate locking desktop at user login
-        * [ ] Launch Nginx (or setup Nginx as a Windows service somehow?)
+        * [x] Launch Nginx (or setup Nginx as a Windows service somehow?)
         * [x] Launch NTP Server Monitor
         * [x] Launch LoggerNet
 * Remote management
@@ -23,7 +23,7 @@ details in our private SOP document.
     * [ ] Implement firewall rules
 * WSU ITS
     * [x] Request static IP address & DNS alias
-    * [ ] Request firewall rules
+    * [-] Request firewall rules
 * Utilities to install
     * [x] [7-Zip](https://www.7-zip.org/)
     * [x] [Notepad++](https://notepad-plus-plus.org/download/v7.5.6.html)
@@ -48,8 +48,9 @@ details in our private SOP document.
 * Server configuration
     * [ ] create web directory structure
     * [ ] get FTP running
+        * needs firewall revised first
     * [ ] get SFTP running
-    * [ ] get HTTP/browse running
+    * [x] get HTTP/browse running
     * 
 * My personal prejudices
     * [x] Fixup browser settings
