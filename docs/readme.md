@@ -23,7 +23,7 @@ details in our private SOP document.
     * [ ] Implement firewall rules
 * WSU ITS
     * [x] Request static IP address & DNS alias
-    * [-] Request firewall rules
+    * [ ] Request firewall rules
 * Utilities to install
     * [x] [7-Zip](https://www.7-zip.org/)
     * [x] [Notepad++](https://notepad-plus-plus.org/download/v7.5.6.html)
@@ -34,8 +34,7 @@ details in our private SOP document.
     * [x] [Sysinternals Suite](https://docs.microsoft.com/en-us/sysinternals/downloads/)
 * Software to install
     * [x] ~~[Python 3.6](https://www.python.org/downloads/release/python-365/)~~
-    * [ ] ~~certbot ([ref](https://community.letsencrypt.org/t/running-certbot-on-windows-phase-1/28348/3))~~
-    * [ ] [Crypt-LE](https://github.com/do-know/Crypt-LE)
+    * [x] [Crypt-LE](https://github.com/do-know/Crypt-LE)
     * [x] [FileZilla Server](https://filezilla-project.org/download.php?type=server)
     * [x] [Nginx](https://nginx.org/en/download.html)
     * [x] [Nework time protocol](https://www.meinbergglobal.com/english/sw/ntp.htm#ntp_stable)
@@ -45,12 +44,16 @@ details in our private SOP document.
     * [ ] hMailAdmin? or maybe just use Google App Passwords?
     * [ ] Areca Backup? or something else?
     * [ ] TightVNC or RealVNC servers?
+    * [ ] ~~certbot ([ref](https://community.letsencrypt.org/t/running-certbot-on-windows-phase-1/28348/3))~~
 * Server configuration
-    * [ ] create web directory structure
+    * [x] generate SSL certificate
     * [ ] get FTP running
-        * needs firewall revised first
+        * [x] revise Windows firewall
+        * [x] enable SFTP using air.paccar.wsu.edu SSL cert
     * [ ] get SFTP running
     * [x] get HTTP/browse running
+        * [ ] fix webroot
+        * [ ] integrate SSL cert
     * 
 * My personal prejudices
     * [x] Fixup browser settings
