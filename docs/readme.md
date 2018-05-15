@@ -47,14 +47,15 @@ details in our private SOP document.
     * [ ] ~~certbot ([ref](https://community.letsencrypt.org/t/running-certbot-on-windows-phase-1/28348/3))~~
 * Server configuration
     * [x] generate SSL certificate
-    * [ ] get FTP running
+    * [x] get FTP running
         * [x] revise Windows firewall
         * [x] enable SFTP using air.paccar.wsu.edu SSL cert
+        * [x] tie in shares directory
     * [ ] get SFTP running
     * [x] get HTTP/browse running
-        * [ ] fix webroot
-        * [ ] integrate SSL cert
-    * 
+        * [x] fix webroot
+        * [x] integrate SSL cert
+    * [x] create file share directory structure
 * My personal prejudices
     * [x] Fixup browser settings
         * Search engine: DuckDuckGo
