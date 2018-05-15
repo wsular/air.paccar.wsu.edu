@@ -52,9 +52,9 @@ details in our private SOP document.
         * [x] enable SFTP using air.paccar.wsu.edu SSL cert
     * [ ] get SFTP running
     * [x] get HTTP/browse running
-        * [ ] fix webroot
-        * [ ] integrate SSL cert
-    * 
+        * [x] fix webroot
+        * [x] integrate SSL cert
+    * [x] create file share directory structure
 * My personal prejudices
     * [x] Fixup browser settings
         * Search engine: DuckDuckGo
