@@ -39,8 +39,8 @@ details in our private SOP document.
     * [x] [Nginx](https://nginx.org/en/download.html)
     * [x] [Nework time protocol](https://www.meinbergglobal.com/english/sw/ntp.htm#ntp_stable)
     * [x] [NTP server monitor](https://www.meinbergglobal.com/english/sw/ntp-server-monitor.htm)
-    * [x] LoggerNet
-    * [ ] cygwin (for SFTP) or freeSSHd?
+    * [x] [LoggerNet](https://www.campbellsci.com/loggernet)
+    * [x] [freeSSHd](http://www.freesshd.com/)
     * [ ] hMailAdmin? or maybe just use Google App Passwords?
     * [ ] Areca Backup? or something else?
     * [ ] TightVNC or RealVNC servers?
@@ -51,7 +51,11 @@ details in our private SOP document.
         * [x] revise Windows firewall
         * [x] enable SFTP using air.paccar.wsu.edu SSL cert
         * [x] tie in shares directory
-    * [ ] get SFTP running
+    * [x] get SFTP running
+        * [x] add user accounts
+        * [x] configure home directory
+        * [x] enable logging
+        * [x] add firewall exception
     * [x] get HTTP/browse running
         * [x] fix webroot
         * [x] integrate SSL cert
